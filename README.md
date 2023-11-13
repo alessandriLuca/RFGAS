@@ -10,7 +10,6 @@ Before getting started, make sure you have [Node.js](https://nodejs.org/) and [n
 If you encounter issues with your Node.js installation, you can try the following steps:
 
 ```bash
-# Found a similar question here and the answer worked.
 sudo rm -rf /usr/local/bin/npm /usr/local/share/man/man1/node* ~/.npm
 sudo rm -rf /usr/local/lib/node*
 sudo rm -rf /usr/local/bin/node*
