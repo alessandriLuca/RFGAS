@@ -1,5 +1,6 @@
 
 # RFGAS (React For GitHub AutoScript) Tutorial
+![Alt Text](img.png)
 
 The RFGAS is a script that simplifies the process of creating React projects, configuring GitHub Pages, and pushing the source code to GitHub. This tutorial will guide you through using the script.
 
