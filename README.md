@@ -1,3 +1,4 @@
+
 # RFGAS (React For GitHub AutoScript) Tutorial
 
 The RFGAS is a script that simplifies the process of creating React projects, configuring GitHub Pages, and pushing the source code to GitHub. This tutorial will guide you through using the script.
@@ -6,15 +7,39 @@ The RFGAS is a script that simplifies the process of creating React projects, co
 
 Before getting started, make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your system.
 
+If you encounter issues with your Node.js installation, you can try the following steps:
+
+```bash
+# Found a similar question here and the answer worked.
+sudo rm -rf /usr/local/bin/npm /usr/local/share/man/man1/node* ~/.npm
+sudo rm -rf /usr/local/lib/node*
+sudo rm -rf /usr/local/bin/node*
+sudo rm -rf /usr/local/include/node*
+
+sudo apt-get purge nodejs npm
+sudo apt autoremove
+
+# Download the latest tar.xz NodeJS file from https://nodejs.org/en/download/
+tar -xf node-v#.#.#-linux-x64.tar.xz
+sudo mv node-v#.#.#-linux-x64/bin/* /usr/local/bin/
+sudo mv node-v#.#.#-linux-x64/lib/node_modules/ /usr/local/lib/
+```
+Replace #.#.# with the version you downloaded.
+Verify the installation using:
+```bash
+node -v
+npm -v
+```
 ## Using the Script
 
-1. **Download the RFGAS script:**
+1. **Clone the RFGAS repository:**
 
     ```bash
-    wget https://your-script-link.com/RFGAS.sh
+    git clone https://github.com/yourusername/RFGAS.git
     ```
 
-    Make sure to replace "https://your-script-link.com/RFGAS.sh" with the actual path to your script.
+    Make sure to replace "https://github.com/yourusername/RFGAS.git" with the actual URL of your RFGAS repository on GitHub.
+
 
 2. **Give execution permissions:**
 
