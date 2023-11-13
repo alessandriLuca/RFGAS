@@ -35,7 +35,7 @@ npm -v
 1. **Clone the RFGAS repository:**
 
     ```bash
-    git clone [https://github.com/yourusername/RFGAS.git](https://github.com/alessandriLuca/RFGAS/tree/main)
+    git clone https://github.com/alessandriLuca/RFGAS/tree/main
     ```
 
 2. **Give execution permissions:**
